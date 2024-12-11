@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed Sheeran Fan Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('/placeholder.svg?height=400&width=1200');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ed Sheeran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tour">Tour</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-1">Ed Sheeran</h1>
+            <p class="lead">Singer, Songwriter, Performer</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="music" class="mb-5">
+            <h2 class="text-center mb-4">Latest Music</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="/placeholder.svg?height=300&width=300" class="card-img-top" alt="Album 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Album 1</h5>
+                            <p class="card-text">Released: 2023</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="/placeholder.svg?height=300&width=300" class="card-img-top" alt="Album 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Album 2</h5>
+                            <p class="card-text">Released: 2021</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="/placeholder.svg?height=300&width=300" class="card-img-top" alt="Album 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Album 3</h5>
+                            <p class="card-text">Released: 2019</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tour">
+            <h2 class="text-center mb-4">Upcoming Tour Dates</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>June 15, 2023</td>
+                        <td>London, UK</td>
+                        <td>Wembley Stadium</td>
+                        <td><a href="#" class="btn btn-sm btn-outline-primary">Buy Tickets</a></td>
+                    </tr>
+                    <tr>
+                        <td>June 22, 2023</td>
+                        <td>Paris, France</td>
+                        <td>Stade de France</td>
+                        <td><a href="#" class="btn btn-sm btn-outline-primary">Buy Tickets</a></td>
+                    </tr>
+                    <tr>
+                        <td>July 1, 2023</td>
+                        <td>New York, USA</td>
+                        <td>Madison Square Garden</td>
+                        <td><a href="#" class="btn btn-sm btn-outline-primary">Buy Tickets</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Ed Sheeran Fan Site. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
